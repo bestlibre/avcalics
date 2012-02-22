@@ -1,0 +1,126 @@
+/*
+Styles appliques au Calendrier 
+*/
+
+.calendrier li{
+	list-style: none;	
+}
+
+.cadre_calendrier{
+	  font-family: verdana;
+	  float:left;
+	  margin:5px;
+	width: 210px;
+	height: 190px;
+}
+
+ul {
+/*pour enlever les puce de la liste */
+list-style-type: none;
+}
+
+.titre{
+/* le nom du mois */
+	font-size: 16px;
+	font-family: verdana;
+	color: #333399;
+	text-align: center;
+}
+
+h3{
+/* le nom du mois */
+	font-size: 15px;
+	padding-top: 0px;
+	padding-right:0px;
+	padding-left : 20px;
+	padding-bottom: 5px;
+	margin: 0 auto;
+	color: #333399;
+}
+.libelle {
+/* ligne en haut des jours de la semaine */
+	margin: 0 auto;
+	padding: 0;
+	color: #333399;
+	text-align: center;
+}
+.ligne {
+/*  chaque numéro de chaque ligne*/
+	margin: 10px auto;
+	padding: 0;
+	font-size: 12px;
+	text-align: center;
+} 
+.libelle li {
+/* ligne en haut des jours de la semaine */
+	float : left;
+	width : 30px; 
+	background-color:#CCCCCC;
+}
+.ligne li {
+/*  chaque numéro de chaque ligne*/
+	color: #666666;
+	float : left; 
+	width : 30px; 
+}
+
+.ligne li a:hover{
+/*  chaque numéro qui est linké*/
+	list-style: none;
+	text-decoration: none;
+	color: #0000ff;
+}
+
+li.itemCurrentItem_in {
+	/* l'apparence de la date du jour dans une période réservée*/
+	color:#000000;
+	font-weight: 900 ;
+	background-color: #CC0000;
+}
+	
+	
+li.itemCurrentItem_out {
+	/* l'apparence de la date du jour hors période réservée*/
+	color:#000000;
+	font-weight: 900 ;
+
+}
+li.libre {
+	/* date libre */
+	background-color: #009933;
+}
+li.reserve {
+	/* date reserve */
+	background-color: #CC0000;
+	color:#FFFFFF;
+}
+
+#legende{
+}
+
+#nav{
+    float:right;
+    margin-right:150px;
+}
+
+#legende .box{
+    background-color: #CC0000;
+    width:20px;
+    height:20px;
+    float:left;
+    margin:0px 5px;
+}
+.texte{
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+}			
+a { 
+	text-decoration: none; 
+}
+a:hover, a:focus {
+	text-decoration: underline; 
+}
